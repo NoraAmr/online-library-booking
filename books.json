@@ -1,0 +1,92 @@
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "category": "Classic Literature",
+    "available_copies": 5
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "Dystopian",
+    "available_copies": 3
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "category": "Romance",
+    "available_copies": 4
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "category": "Classic",
+    "available_copies": 6
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "category": "Fiction",
+    "available_copies": 2
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "category": "Fantasy",
+    "available_copies": 7
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "category": "Fantasy",
+    "available_copies": 10
+  },
+  {
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "category": "Thriller",
+    "available_copies": 5
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "category": "History",
+    "available_copies": 3
+  },
+  {
+    "title": "The Power of Habit",
+    "author": "Charles Duhigg",
+    "category": "Self-Help",
+    "available_copies": 6
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "category": "Self-Help",
+    "available_copies": 8
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "category": "Philosophical Fiction",
+    "available_copies": 4
+  },
+  {
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "category": "Science",
+    "available_copies": 3
+  },
+  {
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "category": "Business",
+    "available_copies": 5
+  },
+  {
+    "title": "Deep Learning with Python",
+    "author": "François Chollet",
+    "category": "Technology",
+    "available_copies": 2
+  }
+]

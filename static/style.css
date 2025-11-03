@@ -1,0 +1,9 @@
+body {
+  background: #f7f9fc;
+}
+.card img {
+  border-radius: 4px;
+}
+.navbar .btn {
+  margin-left: 4px;
+}

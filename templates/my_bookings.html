@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 class="mb-3">My Bookings</h2>
+<a href="{{ url_for('main.index') }}" class="btn btn-primary mb-3">← Back to Books</a>
+
+{% if bookings %}
+<ul class="list-group">
+  {% for b in bookings %}
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    <div>
+      <strong>{{ b.title }}</strong> by {{ b.author }}<br>
+      <small>Category: {{ b.category }} | Date: {{ b.date }}</small>
+    </div>
+    <div>
+      {% if b.status == 'active' %}
+      <form method="POST" action="{{ url_for('main.return_book', booking_id=b.id) }}" style="display:inline;">
+        <button type="submit" class="btn btn-danger btn-sm"><i class="bi bi-arrow-return-left"></i> Return</button>
+      </form>
+      {% else %}
+      <span class="badge bg-secondary"><i class="bi bi-check-circle"></i> Returned</span>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>You have no bookings.</p>
+<a href="{{ url_for('main.index') }}" class="btn btn-success mt-2">Browse books</a>
+{% endif %}
+{% endblock %}

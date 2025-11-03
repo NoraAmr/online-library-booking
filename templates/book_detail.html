@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row">
+  <div class="col-md-4">
+    {% if book.cover_url %}
+      <img src="{{ book.cover_url }}" class="img-fluid rounded">
+    {% else %}
+      <div class="border p-5 text-center">No image</div>
+    {% endif %}
+  </div>
+  <div class="col-md-8">
+    <h3>{{ book.title }}</h3>
+    <p class="text-muted">by {{ book.author }}</p>
+    <p><strong>Category:</strong> {{ book.category }}</p>
+    <p><strong>Copies available:</strong> {{ book.available_copies }}</p>
+    <p>{{ book.description or 'No description available.' }}</p>
+
+    <form method="POST">
+      <button type="submit" class="btn btn-success" {% if book.available_copies < 1 %}disabled{% endif %}>Reserve Book</button>
+    </form>
+  </div>
+</div>
+{% endblock %}
