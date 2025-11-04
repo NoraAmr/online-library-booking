@@ -35,10 +35,7 @@ http://127.0.0.1:5000
 🧑‍💼 Default Admin Account
 Email	Password
 admin@example.com	admin123
-🧩 Future Improvements
-- Add email reminders for overdue books
-- Add REST API endpoints
-- Deploy to Render or Railway
+
 👩‍💻 Author
 Norhan Amr
 📧 norhanamrfadil1344@gmail.com
