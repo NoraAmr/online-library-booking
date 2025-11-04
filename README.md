@@ -34,7 +34,7 @@ flask --app app --debug run
 http://127.0.0.1:5000
 🧑‍💼 Default Admin Account
 Email	Password
-admin@example.com	admin123
+admin@library.com	admin123
 
 👩‍💻 Author
 Norhan Amr
