@@ -234,7 +234,5 @@ def admin_import():
         flash('Failed to import: ' + str(e))
     return redirect(url_for('main.admin_dashboard'))
 
-# --- Chatbot placeholder page ---
-@bp.route('/chatbot')
-def chatbot():
-    return render_template('chatbot.html')
+
+
