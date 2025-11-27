@@ -21,7 +21,7 @@ This is an online library booking system built with Flask. It allows users to re
 - GitHub (Version Control)
 ⚙️ Installation
 1. Clone the repository:
-1.	git clone https://github.com/NoraAmr/flask-library-booking.git
+1.	git clone https://github.com/NoraAmr/online-library-booking
 cd flask-library-booking
 2.	2. Create a virtual environment and activate it:
 python -m venv venv
